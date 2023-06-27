@@ -1,0 +1,15 @@
+{
+  "name": "scriptacle",
+  "version": "1.0.0",
+  "main": "scriptacle.js",
+  "bin": "node scriptacle.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.2"
+  },
+  "dependencies": {
+    "chalk": "4",
+    "commander": "^11.0.0",
+    "stacktrace-js": "^2.0.2"
+  }
+}
