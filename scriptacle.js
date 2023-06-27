@@ -129,6 +129,6 @@ if (require.main) {
     global[key] = module.exports[key];
   }
   const path = require('path');
-  const script = process.argv[1];
+  const script = process.argv[2];
   console.log(path.join(process.cwd(), script));
 }
