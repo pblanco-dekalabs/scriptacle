@@ -2,7 +2,7 @@
   "name": "scriptacle",
   "version": "1.0.0",
   "main": "scriptacle.js",
-  "bin": "node scriptacle.js",
+  "bin": "scriptacle.js",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.3.2"
