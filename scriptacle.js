@@ -130,5 +130,5 @@ if (require.main) {
   }
   const path = require('path');
   const script = process.argv[2];
-  console.log(path.join(process.cwd(), script));
+  require(path.join(process.cwd(), script));
 }
